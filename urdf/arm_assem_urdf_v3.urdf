@@ -504,22 +504,21 @@
  
    <gazebo reference="rightGripper">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Black</material>
  </gazebo>
  
  <gazebo reference="r_finger">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Black</material>
+   <material>Gazebo/Blue</material>
  </gazebo>
  
  <gazebo reference="leftGripper">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Black</material>
+   <material>Gazebo/Blue</material>
  </gazebo>
  
  <gazebo reference="l_fing">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Black</material>
+   <material>Gazebo/Blue</material>
  </gazebo>
    
  
