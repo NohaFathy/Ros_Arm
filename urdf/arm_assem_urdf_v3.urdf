@@ -9,6 +9,7 @@
     <child link="base_link"/>
     <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
   </joint>
+  
    <link name="base_link">
      <inertial>
        <origin xyz="0.00150640163569479 -0.00744412697137323 0.021575291745562" rpy="0 0 0" />
@@ -510,21 +511,22 @@
  
    <gazebo reference="rightGripper">
    <selfCollide>false</selfCollide>
+   <material>Gazebo/Black</material>
  </gazebo>
  
  <gazebo reference="r_finger">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Blue</material>
+   <material>Gazebo/Black</material>
  </gazebo>
  
  <gazebo reference="leftGripper">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Blue</material>
+   <material>Gazebo/Black</material>
  </gazebo>
  
  <gazebo reference="l_fing">
    <selfCollide>false</selfCollide>
-   <material>Gazebo/Blue</material>
+   <material>Gazebo/Black</material>
  </gazebo>
    
  
